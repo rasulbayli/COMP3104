@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #222;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 620px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 34px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #7a3e91;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 18px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #aaa;
+  font-size: 16px;
+}
+
+button {
+  align-self: center;
+  border: 0;
+  background: #4caf50;
+  color: white;
+  padding: 13px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3f9844;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.empty {
+  text-align: center;
+  font-size: 18px;
+}
+
+.student-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.student {
+  border: 1px solid #ddd;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
